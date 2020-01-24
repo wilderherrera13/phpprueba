@@ -42,11 +42,7 @@ define("SOAP_SERVICE_LOCATION",'http://test.analitica.com.co/AZDigital_Pruebas/W
 class soapConectionClass{
 	private static $params = array('encoding' => 'UTF-8');
 	private static $soapRequestParameters=array('Condiciones'
-													=>array('Condicion'
-							    							=>array('Tipo'=>'FechaInicial',
-																	'Expresion'=>"2019-07-01 00:00:00")) , 
-												'IdUsuarioBusqueda'=>'1','IdDirectorioBusqueda'=>1
-												);	 //SE DEFINEN LOS PARAMETROS PARA LA SOLICITUD AL SERIVICIO SOAP
+						 =>array('Condicion'									    							=>array('Tipo'=>'FechaInicial',													        'Expresion'=>"2019-07-01 00:00:00")) , 												'IdUsuarioBusqueda'=>'1','IdDirectorioBusqueda'=>1); //SE DEFINEN LOS PARAMETROS PARA LA SOLICITUD AL SERIVICIO SOAP SEGUN LA ESTRUCTURA ENCONTRADA CON '__getTypes()'
 
 
 	public function soapConection(){
