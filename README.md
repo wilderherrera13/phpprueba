@@ -1,6 +1,7 @@
-# Prueba tecnica PHP Wilder Herrera
+# Prueba tecnica PHP Wilder Duvier Herrera Sabogal
 
-Aplicativo desarrollado en PHP sin uso de Frameworks para el consumo y alojamiento en base de datos de peticios a un servicio SOAP.
+Aplicativo desarrollado en PHP sin uso de Frameworks para el consumo y alojamiento de informacion proveniente de a un servicio SOAP. 
+### Prueba Tecnica Para Cargo de Desarrollados Estandar.
 
 ## Ambiente de desarrollo 
 
@@ -182,4 +183,6 @@ Para realizar el reporte de conteo de extesione se utilizo un script sql de cont
 			?>	
 ```
 
-
+### CANDIDATO: WILDER DUVIER HERRERA SABOGAL
+### CARGO POSTULADO : DESARROLLADOR ESTANDAR
+### TEL: 32097202202
