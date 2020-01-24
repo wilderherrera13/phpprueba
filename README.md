@@ -25,12 +25,12 @@ styles.css
 ```
 ### Creacion del cliente SOAP 🔧
 
-Dentro del siguiente archivo se presenta la creacion del cliente SOAP para relizar las peticiones, para lograr lo anterior se utilizo la clase nativa 'SoapClient' la cual cuenta con los metodos necesarios para una comunicacion con SOAP por a traves de la url suministrada.
+Dentro del siguiente archivo se presenta la el proceso de creacion del cliente SOAP para lo cual se implemento la clase 'SoapClient' la cual cuenta con los metodos necesarios para una comunicacion con SOAP.
 
 En este caso se dejan como constantes las direcciones de coneccion del servicio ya que estos valores no cambian en tiempo de ejecucion.
 
-Para definir los parametros enviados a la operacion "BuscarArchivos" primero se hizo uso del metodo '__getTypes()' de la clase 'soapClient' el cual nos brinda informacion sobre como estan establecidas las arquitecturas de las funciones dentro del servicio.
-analizando el resultado del metodo '__getTypes()' se construye el array $soapRequestParameters que posterirmente se envia como parametro junto con la operacion "Buscar Archivo", Para los parametros "IdUsuarioBusqueda" y 'IdDirectorioBusqueda'no se especifico un valor dentro de las instrucciones de la prueba, por tanto a ambos se les asigna '1' como valor.
+Para definir los parametros enviados a la operacion "BuscarArchivos" se hizo uso del metodo "__getTypes()" de la clase 'soapClient' el cual nos brinda informacion sobre las arquitecturas de las funciones dentro del servicio, asi analizando el resultado del metodo '__getTypes()' se construye el array "$soapRequestParameters" que posterirmente se envia como parametro junto con la operacion "Buscar Archivo", Para los parametros "IdUsuarioBusqueda" y 'IdDirectorioBusqueda'no se especifico un valor dentro de las instrucciones de la prueba, por tanto a ambos se les asigna '1' como valor.
+
 
 ```
 \backend\soapConnectionClass.php
